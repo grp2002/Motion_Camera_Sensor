@@ -28,12 +28,12 @@ sudo apt install -y \
 ### 🔧 Step 1: Install libcamera2opencv
 This project depends on a lightweight wrapper to connect libcamera with OpenCV.
 
-Clone and install:
-git clone https://github.com/berndporr/libcamera2opencv.git
-cd libcamera2opencv
-cmake .
-make
-sudo make install
+Clone and install: \
+git clone https://github.com/berndporr/libcamera2opencv.git\
+cd libcamera2opencv\
+cmake .\
+make\
+sudo make install\
 cd ..
 
 ### Build:
